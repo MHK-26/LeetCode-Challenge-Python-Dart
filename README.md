@@ -1,11 +1,7 @@
 # LeetCode Solutions
 
-This repository contains my solutions to LeetCode problems using Dart and Python.
+This repository contains my solutions to LeetCode problems using Dart and Python programming languages.
 
-## Table of Contents
-
-- [Dart Solutions](#dart-solutions)
-- [Python Solutions](#python-solutions)
 
 ## Solutions
 
@@ -17,4 +13,20 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Dart Solution](./dart/valid_anagram.dart)
 - [Python Solution](./python/valid_anagram.py)
 
-<!-- Add more Dart solutions as needed -->
+### Problem 3: Two Sum
+- [Dart Solution](./dart/two_sum.dart)
+- [Python Solution](./python/two_sum.py)
+
+### Problem 4: Valid Palindrome
+- [Dart Solution](./dart/valid_palindrome.dart)
+- [Python Solution](./python/valid_palindrome.py)
+
+### Problem 5: Best Time to Buy And Sell Stock
+- [Dart Solution](./dart/best_time_to_buy_and_sell_stock.dart)
+- [Python Solution](./python/best_time_to_buy_and_sell_stock.py)
+
+### Problem 6: Valid Parentheses
+- [Dart Solution](./dart/valid_parentheses.dart)
+- [Python Solution](./python/valid_parentheses.py)
+
+
