@@ -29,4 +29,12 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Dart Solution](./dart/valid_parentheses.dart)
 - [Python Solution](./python/valid_parentheses.py)
 
+### Problem 7: Reverse Linked List
+- [Dart Solution](./dart/reverse_linked_list.dart)
+- [Python Solution](./python/reverse_linked_list.py)
+
+### Problem 8: Merge Two Sorted Lists
+- [Dart Solution](./dart/merge_two_sorted_linked_lists.dart)
+- [Python Solution](./python/merge_two_sorted_linked_lists.py)
+
 
