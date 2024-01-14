@@ -37,4 +37,11 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Dart Solution](./dart/merge_two_sorted_linked_lists.dart)
 - [Python Solution](./python/merge_two_sorted_linked_lists.py)
 
+### Problem 9: Linked List Cycle
+- [Python Solution](./python/linked_list_cycle.py)
+
+### Problem 10: Invert Binary Tree
+- [Dart Solution](./dart/invert_binary_tree.dart)
+- [Python Solution](./python/invert_binary_tree.py)
+
 
