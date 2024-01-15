@@ -1,16 +1,34 @@
-    
 class Solution:
     def isValid(self, s: str) -> bool:
-        HashMap = {"}":"{",")":"(","]":"["}
-        stack =[]
+        """
+        Determines if a string of parentheses is balanced.
+
+        Args:
+            s: The input string containing parentheses.
+
+        Returns:
+            True if the parentheses are balanced, False otherwise.
+        """
+
+        # Map for matching closing parentheses to opening parentheses
+        HashMap = {"}": "{", ")": "(", "]": "["}
+
+        # Stack to track opening parentheses
+        stack = []
 
         for c in s:
+            # If it's a closing parenthesis:
             if c in HashMap:
-                if  stack and stack[-1] == HashMap[c]:
-                     stack.pop()
+                # Check if the stack's top matches the expected opening parenthesis
+                if stack and stack[-1] == HashMap[c]:
+                    # If it matches, remove the opening parenthesis from the stack
+                    stack.pop()
                 else:
-                     return False
+                    # If it doesn't match, the parentheses are not balanced
+                    return False
             else:
+                # If it's an opening parenthesis, push it onto the stack
                 stack.append(c)
-        return True if not stack else False
-               
+
+        # If the stack is empty, all parentheses are balanced
+        return not stack  # Concisely return True if stack is empty

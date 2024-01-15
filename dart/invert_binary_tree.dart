@@ -7,18 +7,23 @@ class TreeNode {
 }
 
 class Solution {
+  // Function to invert a binary tree by swapping its left and right subtrees
   TreeNode? invertTree(TreeNode? root) {
+    // Base case: If the root is empty, return null
     if (root == null) {
       return null;
     }
 
-    TreeNode? tmp = root.right;
-    root.right = root.left;
-    root.left = tmp;
+    // Swap the left and right subtrees
+    TreeNode? tmp = root.right; // Temporary variable to hold the right subtree
+    root.right = root.left; // Assign the left subtree to the right
+    root.left = tmp; // Assign the saved right subtree to the left
 
-    invertTree(root.right);
-    invertTree(root.left);
+    // Recursively invert the left and right subtrees
+    invertTree(root.right); // Invert the (now swapped) right subtree
+    invertTree(root.left); // Invert the (now swapped) left subtree
 
+    // Return the inverted root node
     return root;
   }
 }

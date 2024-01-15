@@ -1,20 +1,22 @@
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 class Solution(object):
     def hasCycle(self, head):
         """
-        :type head: ListNode
-        :rtype: bool
+        Determines if a linked list contains a cycle (loop).
+
+        Args:
+            head: The head of the linked list.
+
+        Returns:
+            True if the linked list has a cycle, False otherwise.
         """
-        slow,fast = head , head
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-            if slow == fast:
+
+        slow = fast = head  # Initialize two pointers at the head
+
+        while fast and fast.next:  # Iterate while both pointers are valid
+            slow = slow.next  # Move slow pointer one step at a time
+            fast = fast.next.next  # Move fast pointer two steps at a time
+
+            if slow == fast:  # If pointers meet, there's a cycle
                 return True
-        return False
-        
+
+        return False  # If pointers never meet, there's no cycle

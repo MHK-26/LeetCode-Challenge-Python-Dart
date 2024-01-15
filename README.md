@@ -44,4 +44,11 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Dart Solution](./dart/invert_binary_tree.dart)
 - [Python Solution](./python/invert_binary_tree.py)
 
+### Problem 11: Maximum Depth of Binary Tree
+- [Dart Solution](./dart/maximun_depth_of_binary_tree.dart)
+- [Python Solution](./python/maximun_depth_of_binary_tree.py)
+
+### Problem 11: Same Tree
+- [Dart Solution](./dart/same_tree.dart)
+- [Python Solution](./python/same_tree.py)
 
