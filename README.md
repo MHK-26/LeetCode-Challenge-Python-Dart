@@ -52,7 +52,7 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Dart Solution](./dart/same_tree.dart)
 - [Python Solution](./python/same_tree.py)
 
-### Problem 13: Subtee of Another Tree 
+### Problem 13: Subtree of Another Tree 
 - [Dart Solution](./dart/subtree_of_aanother_tree.dart)
 - [Python Solution](./python/subtree_of_aanother_tree.py)
 
