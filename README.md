@@ -48,7 +48,11 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Dart Solution](./dart/maximun_depth_of_binary_tree.dart)
 - [Python Solution](./python/maximun_depth_of_binary_tree.py)
 
-### Problem 11: Same Tree
+### Problem 12: Same Tree
 - [Dart Solution](./dart/same_tree.dart)
 - [Python Solution](./python/same_tree.py)
+
+### Problem 13: Subtee of Another Tree 
+- [Dart Solution](./dart/subtree_of_aanother_tree.dart)
+- [Python Solution](./python/subtree_of_aanother_tree.py)
 
