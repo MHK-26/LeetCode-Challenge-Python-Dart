@@ -53,6 +53,15 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Python Solution](./python/same_tree.py)
 
 ### Problem 13: Subtree of Another Tree 
-- [Dart Solution](./dart/subtree_of_aanother_tree.dart)
-- [Python Solution](./python/subtree_of_aanother_tree.py)
+- [Dart Solution](./dart/subtree_of_another_tree.dart)
+- [Python Solution](./python/subtree_of_another_tree.py)
+
+### Problem 14: Climbing Stairs 
+- [Python Solution](./python/climbing_stairs.py) (not Done)
+
+### Problem 15: Meeting Rooms 
+- [Python Solution](./python/meeting_rooms.py)
+
+### Problem 16: Number of 1 bits (Hamming weight) 
+- [Python Solution](./python/number_of_1_bits_hamming_weight.py)
 
