@@ -57,11 +57,19 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 - [Python Solution](./python/subtree_of_another_tree.py)
 
 ### Problem 14: Climbing Stairs 
-- [Python Solution](./python/climbing_stairs.py) (not Done)
+- [Dart Solution](./dart/climbing_stairs.dart)
+- [Python Solution](./python/climbing_stairs.py)
 
 ### Problem 15: Meeting Rooms 
 - [Python Solution](./python/meeting_rooms.py)
 
 ### Problem 16: Number of 1 bits (Hamming weight) 
 - [Python Solution](./python/number_of_1_bits_hamming_weight.py)
+
+### Problem 17: Counting bits 
+- [Dart Solution](./dart/counting_bits.dart)
+- [Python Solution](./python/counting_bits.py)
+
+### Problem 18: Reverse bits 
+- [Python Solution](./python/reverse_bits.py)
 
