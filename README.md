@@ -82,3 +82,6 @@ This repository contains my solutions to LeetCode problems using Dart and Python
 ### Problem 21: Top K Frequent Elements (Medium)
 - [Python Solution](./python/top_K_frequent_elements.py)
 
+### Problem 22: Product of Array Except Self (Medium)
+- [Python Solution](./python/product_of_array_except_self.py)
+
